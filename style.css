@@ -13,6 +13,7 @@
 body{
     margin: 0;
     background-color: #e1b87f;
+    font-family: DroidSerif;
 }
 a {
     text-decoration: none;
@@ -20,15 +21,6 @@ a {
 }
 div {
     border: 0px solid #000000;
-}
-#banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#banner img {
-    width:100%; 
 }
 #wrapper {
     position: relative;
@@ -39,13 +31,22 @@ div {
     max-width: 100%;
     margin: 0 auto;
 }
+#header{
+    width: 100%;
+}
+#banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner img {
+    width:100%; 
+}
 #title{
     font-family: Quicksand;
 }
 div.body{
-    width: 100%;
-}
-#header{
     width: 100%;
 }
 #navleft{
