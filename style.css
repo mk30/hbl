@@ -36,17 +36,17 @@ div {
     padding-bottom: 200;
 }
 #main{
-    max-width: 800;
+    max-width: 100%;
     margin: 0 auto;
 }
 #title{
     font-family: Quicksand;
 }
 div.body{
-    width: 50%;
+    width: 100%;
 }
 #header{
-    width: 700px;
+    width: 100%;
 }
 #navleft{
     float: left;
