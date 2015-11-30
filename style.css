@@ -13,14 +13,11 @@
 body{
     margin: 0;
     background-color: #e1b87f;
-    font-family: DroidSerif;
+    font-family: OpenSans;
 }
 a {
     text-decoration: none;
     color: #FFFFFF;
-}
-div {
-    border: 0px solid #000000;
 }
 #banner {
     position: absolute;
@@ -49,20 +46,24 @@ div.body{
 }
 #navleft{
     float: left;
-    width: 49%;
+    width: 50%;
     background:rgba(0,0,0,0.5);
 }
 #navright{
-    width: 49%;
+    width: 50%;
     float: left;
     background:rgba(0,0,0,0.5);
 }
 p{
-    margin-bottom: 50;
+    padding: 10px;
+    color: #FFFFFF;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
     color: #FFFFFF;
 }
 h1{
     font-size: 300%;
-    margin-bottom: -10;
     color: #FFFFFF;
 }
