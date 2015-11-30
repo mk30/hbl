@@ -1,6 +1,6 @@
 @font-face {
     font-family:OpenSans;
-    src: url(OpenSans-Regular.ttf);
+    src: url(OpenSans-Light.ttf);
 }
 @font-face {
     font-family:DroidSerif;
@@ -44,23 +44,26 @@ a {
 div.body{
     width: 100%;
 }
-#navleft{
+#left{
     float: left;
     width: 50%;
     background:rgba(0,0,0,0.5);
 }
-#navright{
+#right{
     width: 50%;
     float: left;
+    background:rgba(0,0,0,0.5);
+}
+#nav{
+    float: left;
+    width: 25%;
     background:rgba(0,0,0,0.5);
 }
 p{
-    padding: 10px;
+    padding: 5px 10px 5px 20px;
     color: #FFFFFF;
 }
 ul, li{
-    margin: 0;
-    padding: 0;
     color: #FFFFFF;
 }
 h1{
