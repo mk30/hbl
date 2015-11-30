@@ -22,26 +22,24 @@ a {
 div {
     border: 0px solid #000000;
 }
-#wrapper {
-    position: relative;
-    margin: 0;
-    padding-bottom: 200;
-}
-#main{
-    max-width: 100%;
-    margin: 0 auto;
-}
-#header{
-    width: 100%;
-}
 #banner {
     position: absolute;
     top: 0;
     left: 0;
 }
-
 #banner img {
     width:100%; 
+}
+#wrapper {
+    position: relative;
+    margin: 0;
+}
+#main{
+    max-width: 1000px;
+    margin: 0 auto;
+    background:rgba(255,255,255,0.5);
+    border: 0px solid #000000;
+    height:100vh;
 }
 #title{
     font-family: Quicksand;
@@ -51,28 +49,20 @@ div.body{
 }
 #navleft{
     float: left;
-    width: 33%;
+    width: 49%;
     background:rgba(0,0,0,0.5);
 }
 #navright{
-    width: 33%;
+    width: 49%;
     float: left;
     background:rgba(0,0,0,0.5);
 }
-#navmiddle{
-    width: 33%;
-    float: left;
-}
 p{
     margin-bottom: 50;
-    font-weight: normal; 
-    font-style: normal; 
     color: #FFFFFF;
 }
 h1{
     font-size: 300%;
-    font-weight: normal; 
-    font-style: normal;
     margin-bottom: -10;
     color: #FFFFFF;
 }
