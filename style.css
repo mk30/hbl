@@ -11,13 +11,12 @@
     src: url(Quicksand_Book.otf);
 }
 body{
-    margin: 0;
+    margin: 0 auto;
     background-color: #e1b87f;
     font-family: OpenSans;
 }
 a {
     text-decoration: none;
-    color: #FFFFFF;
 }
 #banner {
     position: absolute;
@@ -38,6 +37,9 @@ a {
     border: 0px solid #000000;
     height:100vh;
 }
+#logo{
+    width: 100%;
+}
 #title{
     font-family: Quicksand;
 }
@@ -47,26 +49,27 @@ div.body{
 #left{
     float: left;
     width: 50%;
-    background:rgba(0,0,0,0.5);
+    border: 0px solid #000000;
 }
 #right{
     width: 50%;
     float: left;
-    background:rgba(0,0,0,0.5);
+    border: 0px solid #000000;
 }
-#nav{
+.nav{
     float: left;
     width: 25%;
-    background:rgba(0,0,0,0.5);
+    border: 0px solid #000000;
+    text-align: center;
 }
 p{
-    padding: 5px 10px 5px 20px;
-    color: #FFFFFF;
+    padding: 5px 5px 5px 5px;
+    color: #000000;
 }
 ul, li{
-    color: #FFFFFF;
+    color: #000000;
 }
 h1{
     font-size: 300%;
-    color: #FFFFFF;
+    color: #000000;
 }
