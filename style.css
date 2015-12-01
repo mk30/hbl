@@ -67,9 +67,15 @@ div.body{
 p{
     padding: 5px 5px 5px 5px;
     color: #000000;
+    text-align: center;
 }
 ul, li{
     color: #000000;
+}
+#calltoaction {
+    clear: both;
+    text-align: center;
+    font-family: DroidSerif;
 }
 h1{
     font-size: 300%;
