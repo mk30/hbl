@@ -22,11 +22,20 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100px;
     border: 0px solid #000000;
-    background-image: -webkit-linear-gradient(bottom,rgba(245,240,220,1.0),rgba(245,240,220,0));
-    background-image: -moz-linear-gradient(bottom,rgba(245,240,220,1.0),rgba(245,240,220,0));
-    background-image: linear-gradient(to top,rgba(245,240,220,1.0),rgba(245,240,220,0));
+}
+#fade {
+    position: absolute;
+    top: 612;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-image:
+    -webkit-linear-gradient(bottom,rgba(245,184,127,1.0),rgba(245,184,127,0));
+    background-image:
+    -moz-linear-gradient(bottom,rgba(245,184,127,1.0),rgba(245,184,127,0));
+    background-image: linear-gradient(to
+    top,rgba(245,184,127,1.0),rgba(245,184,127,0));
 }
 #banner img {
     width:100%; 
@@ -38,7 +47,7 @@ a {
 #main{
     max-width: 1000px;
     margin: 0 auto;
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.25);
     border: 0px solid #000000;
 }
 #logo{
