@@ -15,8 +15,21 @@ body{
     background-color: #e1b87f;
     font-family: OpenSans;
 }
-a {
-    text-decoration: none;
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:active {
+    text-decoration: inherit;
+    color: inherit;
 }
 #banner {
     position: absolute;
@@ -84,14 +97,15 @@ div.body{
     text-align: center;
     font-family: Quicksand;
     font-weight: bold;
+    color: #999999;
 }
 p{
     padding: 5px 5px 5px 5px;
-    color: #000000;
+    color: #222222;
     text-align: center;
 }
 ul, li{
-    color: #000000;
+    color: #222222;
 }
 #calltoaction {
     clear: both;
