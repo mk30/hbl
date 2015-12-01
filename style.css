@@ -74,7 +74,7 @@ div.body{
     text-align: center;
     clear: both;
 }
-#left{
+.left{
     float: left;
     width: 50%;
     border: 0px solid #000000;
@@ -84,7 +84,7 @@ div.body{
     display: block;
     margin: auto;
 }
-#right{
+.right{
     width: 50%;
     float: left;
     text-align: center;
@@ -117,6 +117,10 @@ ul, li{
 }
 #footer {
     font-size: 75%;
+}
+h1 {
+    font-family: Quicksand;
+    color: #000028; 
 }
 h2{
     font-family: Quicksand;
