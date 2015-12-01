@@ -1,6 +1,6 @@
 @font-face {
     font-family:OpenSans;
-    src: url(OpenSans-Regular.ttf);
+    src: url(OpenSans-Light.ttf);
 }
 @font-face {
     font-family:DroidSerif;
@@ -58,7 +58,7 @@ a:active {
     margin: 0;
 }
 #main{
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
     background:rgba(255,255,255,0.25);
     border: 0px solid #000000;
@@ -71,7 +71,11 @@ div.body{
 }
 .wide{
     width: 100%;
-    text-align: center;
+    clear: both;
+}
+.widetitle{
+    width: 100%;
+    padding: 10px 10px 10px 25px;
     clear: both;
 }
 .left{
@@ -100,9 +104,15 @@ div.body{
 p{
     padding: 5px 5px 5px 5px;
     color: #222222;
-    text-align: center;
     font-family: Quicksand;
     font-weight: bold;
+}
+p.block{
+
+    padding: 15px 15px 15px 15px;
+    color: #ed3f3f;
+    font-family: OpenSans;
+
 }
 ul, li{
     color: #222222;
@@ -120,7 +130,7 @@ ul, li{
 }
 h1 {
     font-family: Quicksand;
-    color: #000028; 
+    color: #050549; 
 }
 h2{
     font-family: Quicksand;
