@@ -40,9 +40,6 @@ a {
 #logo{
     width: 100%;
 }
-#title{
-    font-family: Quicksand;
-}
 div.body{
     width: 100%;
 }
@@ -50,6 +47,11 @@ div.body{
     float: left;
     width: 50%;
     border: 0px solid #000000;
+}
+#brainsmaller{
+    border: 0px solid #000000;
+    display: block;
+    margin: auto;
 }
 #right{
     width: 50%;
