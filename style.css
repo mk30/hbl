@@ -47,6 +47,11 @@ a {
 div.body{
     width: 100%;
 }
+.wide{
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
 #left{
     float: left;
     width: 50%;
@@ -60,6 +65,7 @@ div.body{
 #right{
     width: 50%;
     float: left;
+    text-align: center;
     border: 0px solid #000000;
 }
 .nav{
