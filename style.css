@@ -125,8 +125,9 @@ p.block{
 }
 ul, li{
     color: #222222;
-    font-family: Quicksand;
-    font-weight: bold;
+    font-family: OpenSans;
+    font-size: 85%;
+    line-height: 1.5;
 }
 #calltoaction {
     clear: both;
@@ -147,6 +148,12 @@ h1 {
 h2{
     font-family: QuicksandLight;
     color: #C96243;
+    line-height: 1.5;
+}
+h2.index {
+    font-family:QuicksandLight;
+    line-height: 1.5;
+    color: #b62a00;
 }
 span.emphasis{
     color: #050549; 
