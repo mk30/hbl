@@ -1,0 +1,25 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ecstatic": "^1.3.1",
+    "tcp-bind": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk30/hbl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk30/hbl/issues"
+  },
+  "homepage": "https://github.com/mk30/hbl#readme"
+}
