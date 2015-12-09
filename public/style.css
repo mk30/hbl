@@ -18,6 +18,10 @@ body{
     margin: 0 auto;
     background-color: #e1b87f;
     font-family: OpenSans;
+    background-image: url('newbanner.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
 }
 a:link {
     text-decoration: inherit;
@@ -73,6 +77,7 @@ a.link {
     margin: 0 auto;
     background:rgba(255,255,255,0.25);
     border: 0px solid #000000;
+    text-align: center;
 }
 #logo{
     width: 100%;
