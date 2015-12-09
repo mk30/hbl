@@ -21,7 +21,7 @@ body{
 }
 a:link {
     text-decoration: inherit;
-    color: inherit;
+    color: #222222;
 }
 a:visited {
     text-decoration: inherit;
@@ -37,9 +37,9 @@ a:active {
 }
 a.link {
     text-decoration: underline; 
-    font-weight: bold;
     line-height: 1.5;
     font-size: 120%;
+    color: #050549; 
 }
 #banner {
     position: absolute;
@@ -138,9 +138,12 @@ ul, li{
 }
 #calltoaction {
     clear: both;
+    font-size: 130%;
     text-align: center;
-    font-family: DroidSerif;
+    font-family: OpenSans;
+    line-height: 1.5;
     border-bottom: 1px solid #000000;
+    padding-bottom: 30;
 }
 #footer {
     text-align: center;
