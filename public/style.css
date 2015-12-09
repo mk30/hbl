@@ -45,11 +45,12 @@ a.link {
     position: absolute;
     top: 0;
     left: 0;
+    width: 1348;
     border: 0px solid #000000;
 }
 #fade {
     position: absolute;
-    top: 393;
+    top: 612;
     left: 0;
     right: 0;
     height: 150px;
