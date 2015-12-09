@@ -1,0 +1,164 @@
+@font-face {
+    font-family:OpenSans;
+    src: url(OpenSans-Light.ttf);
+}
+@font-face {
+    font-family:DroidSerif;
+    src: url(DroidSerif-Regular.ttf);
+}
+@font-face {
+    font-family:Quicksand;
+    src: url(Quicksand_Book.otf);
+}
+@font-face {
+    font-family:QuicksandLight;
+    src: url(Quicksand_Light.otf);
+}
+body{
+    margin: 0 auto;
+    background-color: #e1b87f;
+    font-family: OpenSans;
+}
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:active {
+    text-decoration: inherit;
+    color: inherit;
+}
+#banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px solid #000000;
+}
+#fade {
+    position: absolute;
+    top: 393;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-image:
+    -webkit-linear-gradient(bottom,rgba(245,184,127,1.0),rgba(245,184,127,0));
+    background-image:
+    -moz-linear-gradient(bottom,rgba(245,184,127,1.0),rgba(245,184,127,0));
+    background-image: linear-gradient(to
+    top,rgba(245,184,127,1.0),rgba(245,184,127,0));
+}
+#banner img {
+    width:100%; 
+}
+#wrapper {
+    position: relative;
+    margin: 0;
+}
+#main{
+    max-width: 890px;
+    margin: 0 auto;
+    background:rgba(255,255,255,0.25);
+    border: 0px solid #000000;
+}
+#logo{
+    width: 100%;
+}
+div.body{
+    width: 100%;
+}
+.wide{
+    width: 100%;
+    clear: both;
+    margin: 0 auto;
+}
+.widetitle{
+    width: 100%;
+    padding: 10px 10px 10px 25px;
+    clear: both;
+}
+.left{
+    float: left;
+    width: 50%;
+    border: 0px solid #000000;
+}
+#brainsmaller{
+    border: 0px solid #000000;
+    display: block;
+    margin: auto;
+}
+.right{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border: 0px solid #000000;
+}
+.nav{
+    float: left;
+    width: 25%;
+    border: 0px solid #000000;
+    text-align: center;
+    font-family: Quicksand;
+}
+p{
+    color: #222222;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+div.pwrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+p.block{
+    color: #333333;
+    font-family: OpenSans;
+    font-size: 85%;
+    line-height: 1.5;
+    border: 0px solid #000000;
+    text-align: left;
+}
+ul, li{
+    color: #222222;
+    font-family: OpenSans;
+    font-size: 85%;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#calltoaction {
+    clear: both;
+    text-align: center;
+    font-family: DroidSerif;
+    border-bottom: 1px solid #000000;
+}
+#footer {
+    text-align: center;
+    font-size: 75%;
+}
+h1 {
+    font-family: Quicksand;
+    color: #050549; 
+    line-height: 1.5;
+    font-size: 200%;
+}
+h2{
+    font-family: QuicksandLight;
+    color: #C96243;
+    line-height: 1.5;
+}
+p.index {
+    font-family:QuicksandLight;
+    line-height: 0.75;
+    color: #b62a00;
+    font-size: 160%;
+    font-weight: bold;
+
+}
+span.emphasis{
+    color: #050549; 
+}
