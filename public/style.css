@@ -138,9 +138,10 @@ p.block{
 ul, li{
     color: #222222;
     font-family: OpenSans;
-    font-size: 85%;
+    font-size: 90%;
     line-height: 1.5;
     font-weight: bold;
+    text-align: left;
 }
 #calltoaction {
     clear: both;
