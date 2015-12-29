@@ -45,6 +45,9 @@ a.link {
     font-size: 120%;
     color: #050549; 
 }
+a.contactlink{
+    text-decoration: underline; 
+}
 #banner {
     position: absolute;
     top: 0;
