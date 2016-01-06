@@ -1,7 +1,7 @@
 var http = require('http');
 var ecstatic = require('ecstatic');
 var alloc = require('tcp-bind');
-var fd = alloc(80);
+var fd = alloc(81);
 
 process.setgid(process.argv[3]);
 process.setuid(process.argv[2]);
